@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For You ❤️</title>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body{
+        height:100vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background:#fff0f6;
+        text-align:center;
+        padding:20px;
+    }
+
+    .container{
+        max-width:400px;
+        width:100%;
+    }
+
+    h1,b{
+        font-family: 'Pacifico', cursive;
+        font-size:30px;
+        margin-bottom:25px;
+        color:#333;
+    }
+
+    .image{
+        width:180px;
+        margin-bottom:25px;
+    }
+
+    .buttons{
+        display:flex;
+        justify-content:center;
+        gap:20px;
+    }
+
+    button{
+        font-family: 'Pacifico', cursive;
+        border:none;
+        padding:12px 28px;
+        border-radius:25px;
+        font-size:16px;
+        cursor:pointer;
+        transition:0.2s;
+    }
+
+    .yes{
+        background:#ff6fa9;
+        color:white;
+    }
+
+    .no{
+        background:#ffc0d8;
+        color:#333;
+        position:relative;
+    }
+
+    button:hover{
+        transform:scale(1.05);
+    }
+
+    @media (max-width:480px){
+
+        h1{
+            font-family: 'Pacifico', cursive;
+            font-size:20px;
+        }
+
+        .image{
+            width:150px;
+        }
+
+        button{
+            font-family: 'Pacifico', cursive;
+            padding:10px 22px;
+            font-size:14px;
+        }
+
+    }
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>hey my beautiful babyyyy! i made something for you <br> My eleanorrr do you wanna see ??</h1>
+
+<img class="image" src="https://media.tenor.com/tlCgcPvs4wsAAAAj/super-cute.gif">
+
+<div class="buttons">
+    <a href="page1.html"><button class="yes" id="noBtn">YES</button></a>
+    <a href="page0.html"><button class="no" id="noBtn">NO</button></a>
+</div>
+
+</div>
+</body>
+</html>

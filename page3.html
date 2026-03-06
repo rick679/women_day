@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For You ❤️</title>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+    body{
+        height:100vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background:#fff0f6;
+        text-align:center;
+        padding:20px;
+    }
+
+    .container{
+        max-width:400px;
+        width:100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1{
+        color : #b51b81;
+        font-size:30px;
+        margin-bottom:25px;
+    }
+    h2{
+        color:#ff2f7d;
+        font-size:20px;
+        margin-bottom:25px;
+    }
+    img{
+        width:100px;
+        margin-bottom:25px;
+    }
+    .buttons{
+        display:flex;
+        justify-content:center;
+        gap:20px;
+    }
+
+    button{
+        border:none;
+        padding:12px 28px;
+        border-radius:25px;
+        font-size:16px;
+        cursor:pointer;
+        transition:0.2s;
+    }
+
+    .back{
+        background:#ff6fa9;
+        color:white;
+        position:relative;
+    }
+
+    button:hover{
+        transform:scale(1.05);
+    }
+    span {
+         font-family: 'Pacifico', cursive;
+    }
+
+    .imgContainer {
+        display: flex;
+    }
+
+    @media (max-width:480px){
+
+        h1{
+            font-size:30px;
+        }
+        span {
+         font-family: 'Pacifico', cursive;
+        }
+
+        img{
+            width:150px;
+        }
+
+        button{
+            padding:10px 22px;
+            font-size:14px;
+        }
+
+    }
+
+</style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1><b>GIFT FOR YOU <br> <span> My babyyy</span></b></h1>
+        <div class="imgContainer">
+            <div><a href="page4.html"><img src="img2.png" alt=""></a></div>
+            <div><a href="page6.html"><img src="img2.png" alt=""></a></div>
+        </div>
+        <div class="imgContainer">
+            <div><a href="page7.html"><img src="img2.png" alt=""></a></div>
+            <div><a href="page8.html"><img src="img2.png" alt=""></a></div>
+        </div>
+        <div class="buttons">
+            <a href="index.html"><h2><b>Click any gift to open</h2></a>
+        </div>
+
+    </div>
+</body>
+</html>
